@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">esportsFantasy</string>
+    <string name="nameLabel">Enter your name</string>
+    <string name="emaillabel">Enter your email</string>
+    <string name="mobileLabel">Enter your mobile</string>
+    <string name="passwordLabel">Create passwrod</string>
+    <string name="confirmPasswordLabel">Confirm password</string>
+    <string name="signupButton">sign up</string>
+    <string name="emptyUsername">user name can\'t be empty</string>
+    <string name="pattern">please enter valid email id</string>
+    <string name="patternMobile">please enter valid mobile number</string>
+    <string name="confirmPassword">passwords don\'t match</string>
+    <string name="loginButton">login</string>
+    <string name="title_activity_home_page1">homePage1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_tab_layout">tabLayout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">homepage2</string>
+
+</resources>

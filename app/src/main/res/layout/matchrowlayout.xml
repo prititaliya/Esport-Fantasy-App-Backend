@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/rowMargin">
+
+        <TextView
+            android:id="@+id/leagueNameTitle"
+            android:text="league Name"
+            android:textAlignment="center"
+            android:textSize="@dimen/leagueLabelTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/imageMargin">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_margin="@dimen/imageMargin"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user"
+                android:layout_weight="0.5"
+                android:layout_gravity="right"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/leagueNamelable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="League Name"
+                    tools:ignore="DuplicateIds" />
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="description"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/details"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:text="details" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/topFromleagueLabel"
+            android:backgroundTint="@color/green"
+            android:minHeight="48dp"
+            android:text="Play"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+</LinearLayout>
